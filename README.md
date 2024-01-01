@@ -82,7 +82,7 @@ Employing a self-training technique, I instantiated two model objects and facili
 Clone the project
 
 ```bash
-  git clone https://link-to-project
+  git clone https://github.com/SValanukonda/ReinforcementLearning-TicTacToe.git
 ```
 
 Go to the project directory
