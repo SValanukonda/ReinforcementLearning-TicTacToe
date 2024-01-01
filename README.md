@@ -1,6 +1,6 @@
 
 # Tic-Tac-Toe with Reinforcement Learning (SARSA Update Policy)
-
+ ## GamePlay Video
 <div align="center">
   <img src="./temp/Gameplay.gif" alt="Game Play" width =400 height =400>
 </div>
