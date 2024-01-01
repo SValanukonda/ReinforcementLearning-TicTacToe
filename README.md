@@ -64,18 +64,26 @@ The '**state_action**'  dictionary functions as the state-action mapping, with a
 Employing a self-training technique, I instantiated two model objects and facilitated 1 million episodes where they played against each other. Following these interactions, the state-action tables of each model were saved in JSON file format.there is a Training.py which starts this self-training
 
 ## Images
-<div align="center">
-  <div style="display: inline-block; text-align: center;">
-    <img src="./temp/state.png" alt="State" width="200" height="200" title="State">
-    <p>State</p>
-  </div>
-  <div style="display: inline-block; text-align: center;">
-    <img src="./temp/stateactiontable.png" alt="State Action Table" title="State Action Table">
-    <p>State Action Table</p>
-  </div>
-</div>
+<table>
+  <tr>
+    <td align="center">
+      <img src="./temp/state.png" alt="State" width="200" height="200" title="State">
+      <p>State</p>
+    </td>
+    <td align="center">
+      <img src="./temp/stateactiontable.png" alt="State Action Table" title="State Action Table">
+      <p>State Action Table</p>
+    </td>
+  </tr>
+</table>
 
 
+## Game play full Video
+
+<video width="640" height="360" controls>
+    <source src="./temp/GamePlay.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
 
 
 ## Run Locally
