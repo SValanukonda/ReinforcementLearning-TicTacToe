@@ -56,7 +56,7 @@ Here's a breakdown of each term in the equation:
 
     Q(s′,a′): The Q-value of the next state-action pair (s′,a′). It represents the estimated future rewards.
 
-##### Update Function  used Agent
+##### Update Function  used by Agent
         state_action[state][action]=state_action[state][action]+alpha*(reward+gamma*(max(state_action[nxtstate]))-state_action[state][action])
 The '**state_action**'  dictionary functions as the state-action mapping, with a learning rate ('**alpha**') set to 0.1 and a discount factor ('**gamma**') of 0.99. In this context, 'state' represents the current state, 'action' signifies the agent's chosen action, and '**nxtstate**' corresponds to the resulting state after the agent takes the specified action.
 
